@@ -1,0 +1,39 @@
+h1{
+    letter-spacing: 10px;
+    font-size: 4rem;
+}
+
+header{
+    background: linear-gradient(transparent, black), url(/Media/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+body{
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer-custom{
+    height: 300px;
+}
+
+@media screen and (  max-width: 670px) {
+    h1{
+        font-size: 2rem;
+    }
+
+    .list-footer{
+
+        justify-content: start !important;
+    }
+}
+
+nav{
+    z-index: 999;
+}
+
